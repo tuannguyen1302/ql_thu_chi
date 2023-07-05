@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">hopntph16813_ass</string>
+    <string name="name">NGUYỄN TIẾN HỢP</string>
+    <string name="email">hopntph16813@fpt.edu.vn</string>
+    <string name="navigation_drawer_open">Open drawer navigation</string>
+    <string name="navigation_drawer_close">Close drawer navigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

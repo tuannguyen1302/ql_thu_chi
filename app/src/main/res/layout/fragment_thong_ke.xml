@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8DBFF"
+
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".fragment.ThongKeFragment">
+
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:text="Thống Kê"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <Button
+        android:id="@+id/btn_ngaybatdau"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:paddingRight="20dp"
+        android:drawableRight="@drawable/ic_date"
+        android:drawableTint="@color/black"
+        android:background="@drawable/bg_btn_thongke"
+        android:text="Chọn Ngày bắt đầu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/btn_ngayketthuc"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:paddingRight="20dp"
+        android:drawableRight="@drawable/ic_date"
+        android:drawableTint="@color/black"
+        android:background="@drawable/bg_btn_thongke"
+        android:text="Chọn Ngày kết thúc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/btn_ketqua"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_btn_thongke"
+        android:text="Kết Quả"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_tongthu"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="#388E3C"
+            android:layout_weight="1"
+            android:text="Tổng Thu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </TextView>
+        <View
+            android:background="@color/white"
+            android:layout_width="3dp"
+            android:layout_height="match_parent">
+
+        </View>
+        <TextView
+            android:id="@+id/tv_sotientongthu"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="#388E3C"
+            android:layout_weight="1"
+            android:text="Số Tiền"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="3dp">
+
+    </View>
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_tongchi"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="#388E3C"
+            android:layout_weight="1"
+            android:text="Tổng Chi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </TextView>
+        <View
+            android:background="@color/white"
+            android:layout_width="3dp"
+            android:layout_height="match_parent">
+
+        </View>
+        <TextView
+            android:id="@+id/tv_sotientongchi"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="#388E3C"
+            android:layout_weight="1"
+            android:text="Số Tiền"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_dialog"
+    android:layout_margin="8dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_sua_khoanchi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_add_tv_"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Sửa Khoản Chi"
+        android:textColor="@color/white"
+        android:textSize="22sp">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/ed_sua_tenkhoanchi"
+        android:drawableRight="@drawable/ic_ten"
+        android:drawableTint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_dialog_add_ed"
+        android:ems="10"
+        android:hint="Tên Khoản Chi"
+        android:padding="15dp"
+   />
+    <EditText
+        android:id="@+id/ed_sua_noidungkhoanchi"
+        android:drawableRight="@drawable/ic_mota"
+        android:drawableTint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_dialog_add_ed"
+        android:ems="10"
+        android:hint="Nội Dung Khoản Chi"
+        android:padding="15dp"
+        />
+    <EditText
+        android:id="@+id/ed_sua_ngaythukhoanchi"
+        android:drawableRight="@drawable/ic_date"
+        android:drawableTint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_dialog_add_ed"
+        android:ems="10"
+        android:hint="Ngày Chi"
+        android:padding="15dp"
+        />
+    <EditText
+        android:inputType="number"
+        android:drawableRight="@drawable/ic_money"
+        android:drawableTint="@color/black"
+        android:id="@+id/ed_sua_sotienkhoanchi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_dialog_add_ed"
+        android:ems="10"
+        android:hint="Số Tiền"
+        android:padding="15dp"
+        />
+    <Spinner
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/sp_sua_loaichi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_sua_khoanchi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dialog_add_btn"
+            android:text="Sửa"
+            android:textColor="@color/white"
+            android:textSize="18sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_xoa_khoanchi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dialog_add_btn"
+            android:text="Xóa"
+            android:textColor="@color/white"
+            android:textSize="18sp">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

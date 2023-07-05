@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:background="@drawable/bg_dialog_delete"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Xóa Thất Bại"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="Dữ Liệu Liên Kết Chưa Được Xóa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <Button
+            android:id="@+id/btn_e"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:text="OK"
+            android:background="#F80C0C"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+
+        android:id="@+id/linear"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_img_delete"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/delete3"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+        </ImageView>
+    </LinearLayout>
+
+
+</RelativeLayout>
